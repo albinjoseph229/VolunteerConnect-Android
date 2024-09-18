@@ -1,0 +1,25 @@
+<!-- activity_organizer_dashboard.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/add_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event" />
+
+    <Button
+        android:id="@+id/view_registered_volunteers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Registered Volunteers" />
+
+    <Button
+        android:id="@+id/view_my_events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View My Events" />
+</LinearLayout>
