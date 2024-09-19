@@ -100,15 +100,13 @@ public class OrganizerDashboardActivity extends AppCompatActivity {
                 SQLiteDatabase db = dbHelper.getReadableDatabase();
                 Cursor cursor = null;
                 try {
-                    cursor = db.rawQuery("SELECT users.username FROM registrations INNER JOIN users ON registrations.user_id = users.id WHERE registrations.event_id = ?", new String[]{input});
-                    StringBuilder volunteers = new StringBuilder();
-                    while (cursor.moveToNext()) {
-                        volunteers.append("Username: ").append(cursor.getString(cursor.getColumnIndex("username"))).append("\n");
+                    cursor = db.rawQuery("SELECT COUNT(*) AS volunteer_count FROM registrations WHERE event_id = ?", new String[]{input});
+                    if (cursor.moveToFirst()) {
+                        int volunteerCount = cursor.getInt(cursor.getColumnIndex("volunteer_count"));
+                        showAlert("Registered Volunteers", "Number of volunteers registered for this event: " + volunteerCount);
+                    } else {
+                        showAlert("Registered Volunteers", "No volunteers registered for this event.");
                     }
-                    if (volunteers.length() == 0) {
-                        volunteers.append("No volunteers registered for this event.");
-                    }
-                    showAlert("Registered Volunteers", volunteers.toString());
                 } catch (Exception e) {
                     Log.e("OrganizerDashboard", "Error fetching registered volunteers", e);
                     Toast.makeText(OrganizerDashboardActivity.this, "Error fetching registered volunteers: " + e.getMessage(), Toast.LENGTH_LONG).show();
