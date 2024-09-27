@@ -12,11 +12,15 @@ VolunteerApp is an Android application designed to help users find and register 
 
 ## Screenshots
 
-![Home Page](screenshots/home_page.png)
-![Login Page](screenshots/login_page.png)
-![Admin Dashboard](screenshots/admin_dashboard.png)
-![Organizer Dashboard](screenshots/organizer_dashboard.png)
-![Volunteer Dashboard](screenshots/volunteer_dashboard.png)
+![Home Page](https://github.com/user-attachments/assets/0de1d15d-d1aa-4843-a9b4-36c5394bbdfb)
+
+![Login Page](https://github.com/user-attachments/assets/e37db07d-7669-4a5d-83cf-b29830f9f2de)
+
+![Admin Dashboard](https://github.com/user-attachments/assets/15db43ed-1419-4276-a2c5-54df63e4837b)
+
+![Organizer Dashboard](https://github.com/user-attachments/assets/c3711ee4-6c07-4a3d-82f7-0d7e4739efc4)
+
+![Volunteer Dashboard](https://github.com/user-attachments/assets/09271b1d-9dd7-438e-894b-556205cdb136)
 
 ## Installation
 
@@ -44,11 +48,6 @@ VolunteerApp is an Android application designed to help users find and register 
 3. **Admin Dashboard**: Admins can manage users and events.
 4. **Organizer Dashboard**: Organizers can create and manage events, and view registered volunteers.
 5. **Volunteer Dashboard**: Volunteers can browse and register for events.
-
-## Project Structure
-
-VolunteerApp/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/example/volunteerapp/ │ │ │ │ ├── activities/ │ │ │ │ │ ├── AdminDashboardActivity.java │ │ │ │ │ ├── OrganizerDashboardActivity.java │ │ │ │ │ ├── VolunteerDashboardActivity.java │ │ │ │ │ ├── LoginActivity.java │ │ │ │ │ ├── RegistrationActivity.java │ │ │ │ │ ├── HomePageActivity.java │ │ │ │ ├── helpers/ │ │ │ │ │ ├── DatabaseHelper.java │ │ │ ├── res/ │ │ │ │ ├── layout/ │ │ │ │ │ ├── activity_admin_dashboard.xml │ │ │ │ │ ├── activity_organizer_dashboard.xml │ │ │ │ │ ├── activity_volunteer_dashboard.xml │ │ │ │ │ ├── activity_login.xml │ │ │ │ │ ├── activity_registration.xml │ │ │ │ │ ├── activity_home_page.xml │ │ │ │ ├── values/ │ │ │ │ │ ├── colors.xml │ │ │ │ │ ├── styles.xml │ │ │ │ ├── values-night/ │ │ │ │ │ ├── colors.xml │ │ │ ├── drawable/ │ │ │ │ ├── rounded_button.xml ├── build.gradle ├── settings.gradle └── README.md
-
 
 
 ## Contributing
