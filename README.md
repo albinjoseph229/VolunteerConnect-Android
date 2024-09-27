@@ -13,37 +13,18 @@ VolunteerApp is an Android application designed to help users find and register 
 
 ## Screenshots
 
+## Screenshots
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0de1d15d-d1aa-4843-a9b4-36c5394bbdfb" width="300" alt="Home Page" />
+  <img src="path/to/screenshot1.png" width="300" alt="Home Page" />
   <span style="display:inline-block; width: 40px;"></span> <!-- Add space between images -->
-  <img src="https://github.com/user-attachments/assets/e37db07d-7669-4a5d-83cf-b29830f9f2de" width="300" alt="Login Page" />
+  <img src="path/to/screenshot2.png" width="300" alt="Login Page" />
 </p>
 
 <p align="center">
   <b>Home Page</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Login Page</b>
 </p>
 
-<br/>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/15db43ed-1419-4276-a2c5-54df63e4837b" width="300" alt="Admin Dashboard" />
-  <span style="display:inline-block; width: 40px;"></span> <!-- Add space between images -->
-  <img src="https://github.com/user-attachments/assets/c3711ee4-6c07-4a3d-82f7-0d7e4739efc4" width="300" alt="Organizer Dashboard" />
-</p>
-
-<p align="center">
-  <b>Admin Dashboard</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Organizer Dashboard</b>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/09271b1d-9dd7-438e-894b-556205cdb136" width="300" alt="Volunteer Dashboard" />
-</p>
-
-<p align="center">
-  <b>Volunteer Dashboard</b>
-</p>
 
 ## Installation
 
